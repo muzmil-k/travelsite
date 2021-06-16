@@ -1,11 +1,16 @@
+.hawaii-section {
+  background-image: url(../assets/Images/hawaii.jpg);
+}
+.greece-section {
+  background-image: url(../assets/Images/greece.jpg);
+}
+.iceland-section {
+  background-image: url(../assets/Images/iceland.jpg);
+}
 .destination {
   width: 100%;
   max-width: 100%;
   margin-top: 80px;
-}
-
-.hawaii-section {
-  background-image: url(../assets/Images/hawaii.jpg);
   background-size: cover;
   background-position: center center;
 }
