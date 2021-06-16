@@ -1,0 +1,104 @@
+.hero-wrapper {
+  width: 100%;
+  max-width: 100%;
+  background-color: #fefaf5;
+  margin-top: 80px;
+}
+
+.hero {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.hero__content {
+  flex-basis: 50%;
+  padding-top: 100px;
+  color: #335576;
+}
+
+.hero__content--title {
+  font-size: 2rem;
+  margin: 0;
+  line-height: 1.25;
+  margin-bottom: 38px;
+}
+
+.hero__content--subtitle {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 12px;
+  margin-bottom: 38px;
+}
+
+.cta {
+  margin-bottom: 32px;
+}
+
+.cta .cta-btn {
+  background-color: #db7a4e;
+  border-radius: 3rem;
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+}
+
+.hero__image {
+  flex-basis: 50%;
+}
+
+.hero__image--wrapper {
+  margin: 80px;
+  margin-right: 20px;
+  margin-left: 150px;
+}
+
+.hero__image img {
+  width: 400px;
+  max-width: 100%;
+}
+
+/*Recommendation section*/
+.recommendation__section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 80px;
+  padding-top: 20px;
+  padding-bottom: 75px;
+}
+
+.recommendation__section .title {
+  color: #335576;
+}
+
+.cards__wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 115px;
+}
+.cards__wrapper .card {
+  flex: 1;
+  max-width: 250px;
+  position: relative;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.cards__wrapper .card-text {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  pointer-events: none;
+}
